@@ -55,7 +55,7 @@
         <div class="flex items-center">
             {{#if @post.isScheduled}}
             <span class="gh-content-status-scheduled gh-badge nowrap" title="Scheduled" data-tooltip="{{capitalize this.scheduledText}} to {{@post.emailRecipientFilter}} members">
-                Scheduled
+                {{t "Scheduled"}}
                 {{#if @post.emailRecipientFilter}}
                 {{svg-jar "email-stroke"}}
                 {{/if}}
@@ -64,13 +64,13 @@
 
             {{#if @post.isDraft}}
             <span class="gh-content-status-draft gh-badge gh-badge-pink nowrap">
-                Draft
+                {{t "Draft"}}
             </span>
             {{/if}}
 
             {{#if @post.isPublished}}
             <span class="gh-content-status-published nowrap">
-                Published
+                {{t "Published"}}
                 {{#if @post.hasEmail}}
                 {{svg-jar "email-stroke"}}
                 {{/if}}

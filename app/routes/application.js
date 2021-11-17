@@ -35,6 +35,7 @@ export default Route.extend(ShortcutsRoute, {
     session: service(),
     settings: service(),
     ui: service(),
+    i18n: service(),
     whatsNew: service(),
     billing: service(),
 

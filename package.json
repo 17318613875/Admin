@@ -17,7 +17,7 @@
   },
   "scripts": {
     "start": "ember serve",
-    "build": "ember build",
+    "build": "ember build --fix",
     "test": "ember exam --split 2 --parallel",
     "lint:js": "eslint ."
   },
@@ -89,6 +89,7 @@
     "ember-exam": "6.0.1",
     "ember-export-application-global": "2.0.1",
     "ember-fetch": "8.1.1",
+    "ember-i18n": "^5.3.1",
     "ember-in-viewport": "3.10.3",
     "ember-infinity": "2.2.1",
     "ember-keyboard": "6.0.3",
